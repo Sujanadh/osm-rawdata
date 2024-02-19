@@ -36,7 +36,7 @@ import geojson
 import requests
 from geojson import Feature, FeatureCollection, Polygon
 from shapely import wkt
-from shapely.geometry import Polygon, shape
+from shapely.geometry import shape
 
 # Find the other files for this project
 import osm_rawdata as rw
