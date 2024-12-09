@@ -1,3 +1,23 @@
+## 0.4.0 (2024-10-24)
+
+## 0.3.3 (2024-10-14)
+
+### Fix
+
+- geofabrik hyphenated region path (#33)
+
+### Refactor
+
+- move raw-data import related scripts to subdir
+
+## 0.3.2 (2024-08-12)
+
+### Fix
+
+- raw-data-api changed Export.geojson --> RawExport.geojson (#30)
+- allow raw-data-api call to return if FAILURE response
+- param spelling mistake PostgresClient.url --> .uri
+
 ## 0.3.1 (2024-08-05)
 
 ### Fix
